@@ -11,3 +11,5 @@ PercentileService(app);
 angular.element().ready(function () {
     angular.bootstrap(document, ['myApp']);
 });
+
+export default app;

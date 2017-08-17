@@ -96,7 +96,7 @@ module.exports = {
             .optimize
             .CommonsChunkPlugin({
                 names: [
-                    'common', 'vendor'
+                    'vendor', 'vendor.js'
                 ],
                 minChunks: 2
             }),
